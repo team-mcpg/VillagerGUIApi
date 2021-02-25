@@ -1,10 +1,9 @@
 package masecla.villager.api;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
+import masecla.villager.adapters.BaseAdapter;
+import org.bukkit.Bukkit;
+
+import java.io.*;
 import java.net.URL;
 import java.net.URLClassLoader;
 import java.util.ArrayList;
@@ -13,10 +12,6 @@ import java.util.Properties;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipException;
 import java.util.zip.ZipFile;
-
-import org.bukkit.Bukkit;
-
-import masecla.villager.adapters.BaseAdapter;
 
 public class AdapterLoader {
 

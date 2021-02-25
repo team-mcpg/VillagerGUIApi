@@ -1,10 +1,9 @@
 package masecla.villager.api;
 
-import java.io.IOException;
-
+import masecla.villager.adapters.BaseAdapter;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import masecla.villager.adapters.BaseAdapter;
+import java.io.IOException;
 
 public class MainLoader extends JavaPlugin {
 

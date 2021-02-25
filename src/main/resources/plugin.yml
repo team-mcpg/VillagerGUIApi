@@ -1,4 +1,5 @@
 name: VillagerGUIApi
-version: 1.0
-author: masecla22
 main: masecla.villager.api.MainLoader
+version: 2.0
+authors: [masecla22, MileKat]
+api-version: 1.16

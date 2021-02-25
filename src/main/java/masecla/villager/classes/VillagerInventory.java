@@ -1,12 +1,11 @@
 package masecla.villager.classes;
 
+import masecla.villager.api.MainLoader;
+import org.bukkit.entity.Player;
+
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.List;
-
-import org.bukkit.entity.Player;
-
-import masecla.villager.api.MainLoader;
 
 public class VillagerInventory {
 	private List<VillagerTrade> trades = new ArrayList<>();

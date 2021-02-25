@@ -1,8 +1,7 @@
 package masecla.villager.adapters;
 
-import org.bukkit.entity.Player;
-
 import masecla.villager.classes.VillagerInventory;
+import org.bukkit.entity.Player;
 
 public abstract class BaseAdapter {
 

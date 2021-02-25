@@ -1,11 +1,10 @@
 package masecla.villager.events;
 
+import masecla.villager.classes.VillagerInventory;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 import org.bukkit.inventory.ItemStack;
-
-import masecla.villager.classes.VillagerInventory;
 
 public class VillagerInventoryModifyEvent extends Event {
 
